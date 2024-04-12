@@ -1,0 +1,117 @@
+Problem 1: n = 7
+Pmatrix:
+0 0 0 6 3 0 6 
+0 0 5 0 0 4 0 
+0 5 0 0 0 4 5 
+6 0 0 0 3 0 6 
+3 0 0 3 0 4 0 
+0 4 4 0 4 0 0 
+6 0 5 6 0 0 0 
+
+V1-Vj: shortest path and length
+V1 : 0
+V1 V2 : 6
+V1 V3 : 5
+V1 V4 V6 : 4
+V1 V5 V3 : 6
+V1 V6 : 3
+V1 V7 V6 : 6
+V2-Vj: shortest path and length
+V2 V1 : 6
+V2 : 0
+V2 V3 V5 : 6
+V2 V4 : 4
+V2 V5 : 5
+V2 V6 V4 : 5
+V2 V7 : 3
+V3-Vj: shortest path and length
+V3 V1 : 5
+V3 V2 V5 : 6
+V3 : 0
+V3 V4 : 3
+V3 V5 : 1
+V3 V6 V4 : 4
+V3 V7 V5 : 6
+V4-Vj: shortest path and length
+V4 V1 V6 : 4
+V4 V2 : 4
+V4 V3 : 3
+V4 : 0
+V4 V5 V3 : 4
+V4 V6 : 1
+V4 V7 V6 : 4
+V5-Vj: shortest path and length
+V5 V1 V3 : 6
+V5 V2 : 5
+V5 V3 : 1
+V5 V4 V3 : 4
+V5 : 0
+V5 V6 V4 V3 : 5
+V5 V7 : 5
+V6-Vj: shortest path and length
+V6 V1 : 3
+V6 V2 V4 : 5
+V6 V3 V4 : 4
+V6 V4 : 1
+V6 V5 V4 : 5
+V6 : 0
+V6 V7 : 3
+V7-Vj: shortest path and length
+V7 V1 V6 : 6
+V7 V2 : 3
+V7 V3 V5 : 6
+V7 V4 V6 : 4
+V7 V5 : 5
+V7 V6 : 3
+V7 : 0
+Problem 2: n = 6
+Pmatrix:
+0 0 0 0 2 2 
+0 0 1 1 0 0 
+0 1 0 1 0 2 
+0 1 1 0 0 2 
+2 0 0 0 0 2 
+2 0 2 2 2 0 
+
+V1-Vj: shortest path and length
+V1 : 0
+V1 V2 : 1
+V1 V3 : 2
+V1 V4 : 1
+V1 V5 V2 : 3
+V1 V6 V2 : 4
+V2-Vj: shortest path and length
+V2 V1 : 1
+V2 : 0
+V2 V3 V1 : 3
+V2 V4 V1 : 2
+V2 V5 : 2
+V2 V6 : 3
+V3-Vj: shortest path and length
+V3 V1 : 2
+V3 V2 V1 : 3
+V3 : 0
+V3 V4 V1 : 3
+V3 V5 : 3
+V3 V6 V2 V1 : 6
+V4-Vj: shortest path and length
+V4 V1 : 1
+V4 V2 V1 : 2
+V4 V3 V1 : 3
+V4 : 0
+V4 V5 : 3
+V4 V6 V2 V1 : 5
+V5-Vj: shortest path and length
+V5 V1 V2 : 3
+V5 V2 : 2
+V5 V3 : 3
+V5 V4 : 3
+V5 : 0
+V5 V6 V2 : 5
+V6-Vj: shortest path and length
+V6 V1 V2 : 4
+V6 V2 : 3
+V6 V3 V2 : 6
+V6 V4 V2 : 5
+V6 V5 V2 : 5
+V6 : 0
