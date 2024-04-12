@@ -8,6 +8,10 @@ g++ -g -o lcs lcs.cpp
 
 To run lcs:
 ./lcs <string1 string2>
+
+./lcs ABCDEfghi AcbDedghaq
+
+./lcs AGGTAB GXTXAYB
 _______________________________________________________________________
 
 To Compile flyod:
